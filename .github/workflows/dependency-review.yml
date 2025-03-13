@@ -11,4 +11,5 @@ jobs:
       - name: Dependency Review
         uses: actions/dependency-review-action@v4
         with:
+          fail-on-scopes: unknown
           config-file: './.github/dependency-review-config.yml'
