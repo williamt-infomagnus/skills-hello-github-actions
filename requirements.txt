@@ -1,0 +1,5 @@
+# requirements.txt
+
+# General
+Flask==0.12
+Django==4.0.4
